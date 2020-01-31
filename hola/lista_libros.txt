@@ -1,0 +1,5 @@
+Título: manga
+Autor: lolo
+Fecha edición: 2001
+Editorial: json
+---------------
