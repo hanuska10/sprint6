@@ -9,8 +9,8 @@ class MenuLibros:
     def mostrarMenu(self):  
 
         print(30 * "-", "MENU", 30 * "-")
-        print("1. Menu Option 1")
-        print("2. Menu Option 2")
+        print("1. Menu consultar 1")
+        print("2. Menu agregar 2")
         print("3. Exit")
         print(67 * "-")
     
@@ -19,6 +19,7 @@ class MenuLibros:
         while menu:
             #self.mostrarMenu()
             opcion = int(input(" Seleccione una opción [1-3:] "))
+            print(67 * "-")
         
             if opcion == 1:
                 self.libro1.consultar()
