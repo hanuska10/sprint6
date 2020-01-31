@@ -15,7 +15,8 @@ class Biblioteca:
         f.write("Título: "+self.titulo +'\n')
         f.write("Autor: "+ self.autor + '\n')
         f.write("Fecha edición: "+self.fechaEd + '\n')
-        f.write("Editorial: "+self.editorial + '\n'+"---------------")
+        f.write("Editorial: "+self.editorial + '\n')
+        f.write((20 * "-") + '\n')
 
     def consultar(self):
         if os.path.isfile('C:/Users/formacion/Documents/GitHub/sprint6/lista_libros.txt'):            
