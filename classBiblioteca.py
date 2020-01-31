@@ -10,17 +10,18 @@ class Biblioteca:
         self.autor = str(input("Escribe el nombre del autor: "))
         self.fechaEd = str(input("Escribe el año de publicación: "))
         self.editorial = str(input("Escribe el nombre de la editoria: "))
-        print(self.titulo+self.autor)
-        f = open("lista_libros.txt", "a")
-        f.write(self.titulo + '\n')
-        f.write(self.autor + '\n')
-        f.write(self.fechaEd + '\n')
-        f.write(self.editorial + '\n' + '\n')
+        
+        f = open("lista_libros.txt", "a" )    
+        f.write("Título: "+self.titulo +'\n')
+        f.write("Autor: "+ self.autor + '\n')
+        f.write("Fecha edición: "+self.fechaEd + '\n')
+        f.write("Editorial: "+self.editorial + '\n'+"---------------")
 
     def consultar(self):
-        if os.path.isfile('C:/Users/formacion/Documents/GitHub/sprint6/lista_libros.txt'):
+        if os.path.isfile('C:/Users/formacion/Documents/GitHub/sprint6/lista_libros.txt'):            
             f = open("lista_libros.txt", "r")  # lee el archivo si existe
-            return f
+            for x in f:
+                print(x)
         else:
             print('El no archivo existe.')
 
