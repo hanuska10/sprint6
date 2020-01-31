@@ -1,5 +1,10 @@
-Título: manga
-Autor: lolo
-Fecha edición: 2001
-Editorial: json
----------------
+Título: lola
+Autor: dolores
+Fecha edición: 2011
+Editorial: alambra
+--------------------
+Título: usdevdwv
+Autor: adifhne
+Fecha edición: 205858
+Editorial: aepifv
+--------------------
