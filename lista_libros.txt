@@ -1,5 +1,5 @@
-lola
-lila
-2005
-lula
-
+Título: manga
+Autor: lolo
+Fecha edición: 2001
+Editorial: json
+---------------
