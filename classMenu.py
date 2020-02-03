@@ -1,4 +1,4 @@
-from classBiblioteca import Biblioteca
+from classLibro import Libro
 
 
 class MenuLibros:
