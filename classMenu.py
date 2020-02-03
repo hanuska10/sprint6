@@ -4,7 +4,7 @@ from classLibro import Libro
 class MenuLibros:
     
     def __init__(self):
-        self.libro1 = Biblioteca()
+        self.libro1 = Libro()
 
     def mostrarMenu(self):  
 
