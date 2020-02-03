@@ -2,4 +2,8 @@ Título: manga
 Autor: lolo
 Fecha edición: 2001
 Editorial: json
+---------------Título: la ola
+Autor: lolo
+Fecha edición: 2005
+Editorial: lalis
 ---------------
