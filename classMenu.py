@@ -17,7 +17,7 @@ class MenuLibros:
         menu=True
     
         while menu:
-            opcion = input(" Seleccione una opción [1-3:] ")
+            opcion = int(input(" Seleccione una opción [1-3:] "))
             print("\n")
            
         
