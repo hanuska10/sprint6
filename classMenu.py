@@ -19,10 +19,14 @@ class MenuLibros:
         while menu:
             #self.mostrarMenu()
             opcion = int(input(" Seleccione una opción [1-3:] "))
-            print(67 * "-")
+            print("\n")
+           
         
             if opcion == 1:
-                self.libro1.consultar()
+                print(20 * "-", "LISTA LIBROS",20 * "-")
+                self.libro1.consultar()                             
+                print("\n")
+                print(20 * "-")
             elif opcion == 2:
                 self.libro1.crearGuardar()
             elif opcion == 3:
