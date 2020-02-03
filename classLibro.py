@@ -6,7 +6,7 @@ class Libro:
     #metodo
     def crearGuardar(self):
 
-        self.titulo = str(input("Escribe el título del libro: "))
+        self.titulo = str(input("Escribe el título del libro: ")).upper()
         
         f = open("lista_libros.txt", "r") 
         f=f.read()
