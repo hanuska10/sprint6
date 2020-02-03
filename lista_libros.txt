@@ -1,9 +1,10 @@
-Título: manga
-Autor: lolo
-Fecha edición: 2001
-Editorial: json
----------------Título: la ola
-Autor: lolo
-Fecha edición: 2005
-Editorial: lalis
----------------
+Tï¿½tulo: lola
+Autor: dolores
+Fecha ediciï¿½n: 2011
+Editorial: alambra
+--------------------
+Tï¿½tulo: usdevdwv
+Autor: adifhne
+Fecha ediciï¿½n: 205858
+Editorial: aepifv
+--------------------
