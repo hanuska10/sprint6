@@ -1,14 +1,14 @@
-Tï¿½tulo: lola
-Autor: dolores
-Fecha ediciï¿½n: 2011
-Editorial: alambra
---------------------
-Tï¿½tulo: usdevdwv
-Autor: adifhne
-Fecha ediciï¿½n: 205858
-Editorial: aepifv
---------------------
-Título: Juana
-Autor: dayana
-Fecha edición: 2005
-Editorial: lula
+
+
+Título: DOÑA BARBARA
+Autor: Romulo gallego
+Fecha edición: 1929
+
+Título: MADAME BOVARY
+Autor: Gustave flaubert
+Fecha edición: 1857
+
+Título: CIEN AÑOS DE SOLEDAD
+Autor: Gabriel garcia marquez
+Fecha edición: 1967
+
