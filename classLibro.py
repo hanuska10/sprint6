@@ -32,19 +32,24 @@ class Libro:
         while x <= len(lineas):
             fila=lineas[x:x+4]
             self.matriz.append(fila)
-            x=x+4 
+            x=x+4
+        print(self.matriz)
 
     def consultarLibro(self):
         self.cargarMatriz()
-        titulo=str(input("Buscar título: "))       
-        for i in range(len(self.matriz)):
-            for j in range(len(self.matriz[i])):
-                if self.matriz[i][0].find(titulo)>=0:
-                    print(self.matriz[i][j], end="")    
+        titulo=str(input("Buscar título: "))
+        print()
+        if os.path.isfile('C:/Users/formacion/Documents/GitHub/sprint6/lista_libros.txt'):
+            for i in range(len(self.matriz)):
+                for j in range(len(self.matriz[i])):
+                    if self.matriz[i][0].find(titulo)>=0:
+                        print(self.matriz[i][j], end="")
+        else:
+            print('El no archivo existe.')
 
     def consultarLista(self):
         if os.path.isfile('C:/Users/formacion/Documents/GitHub/sprint6/lista_libros.txt'):
-            f = open("lista_libros.txt", "r")  # lee el archivo si existe
+            f = open("lista_libros.txt", "r")
             print(f.read())
         else:
             print('El no archivo existe.')
@@ -65,5 +70,6 @@ class Libro:
             
     
 #libro1=Libro()
+#libro1.cargarMatriz()
 #libro1.consultarLibro()
 #libro1.eliminarLibro()
