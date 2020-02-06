@@ -65,10 +65,10 @@ class Libro:
                     for i in lista:
                         f.write(i)
                         f.close()"""
-                    print(self.matriz)
+        print(self.matriz)
             
     
-#libro1=Libro()
+libro1=Libro()
 #libro1.cargarMatriz()
 #libro1.consultarLibro()
-#libro1.eliminarLibro()
+libro1.eliminarLibro()
