@@ -21,11 +21,11 @@ class MenuLibros:
         salir=False
         opcion=0
         while not salir: 
-            print(30 * "-", "MENU", 30 * "-")
+            print(30 * "-", "MENÚ", 30 * "-")
             print("1.Consultar Lista de Libros")
             print("2.Consultar por título")
             print("3.Agregar nuevo libro a la lista ")
-            print("4. Exit / Salir")
+            print("4.Exit / Salir")
             print(67 * "-")
             
             opcion = self.validarNumero()
@@ -41,7 +41,7 @@ class MenuLibros:
             elif opcion == 4:
                 salir = True               
             else:
-                input("Wrong option selection. Enter any key to try again..")
+                input("Escribe un número entre 1 & 4...")
 
         print("Fin")
 
