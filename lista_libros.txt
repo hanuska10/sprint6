@@ -12,3 +12,7 @@ Título: CIEN AÑOS DE SOLEDAD
 Autor: Gabriel garcia marquez
 Fecha edición: 1967
 
+Título: & C:/USERS/FORMACION/APPDATA/LOCAL/PROGRAMS/PYTHON/PYTHON38-32/PYTHON.EXE C:/USERS/FORMACION/DOCUMENTS/SPRINT/CLASSMENU.PY
+Autor: & c:/users/formacion/appdata/local/programs/python/python38-32/python.exe c:/users/formacion/documents/sprint/classmenu.py
+Fecha edición: & c:/users/formacion/appdata/local/programs/python/python38-32/python.exe c:/users/formacion/documents/sprint/classmenu.py
+
