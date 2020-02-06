@@ -68,7 +68,7 @@ class Libro:
         print(self.matriz)
             
     
-libro1=Libro()
+#libro1=Libro()
 #libro1.cargarMatriz()
 #libro1.consultarLibro()
-libro1.eliminarLibro()
+#libro1.eliminarLibro()
