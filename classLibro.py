@@ -33,7 +33,6 @@ class Libro:
             fila=lineas[x:x+4]
             self.matriz.append(fila)
             x=x+4
-        print(self.matriz)
 
     def consultarLibro(self):
         self.cargarMatriz()
