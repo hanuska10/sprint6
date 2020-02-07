@@ -1,18 +1,7 @@
-Título: DOÑA BARBARA
-Autor: Romulo gallego
-Fecha edición: 1929
-
 Título: MADAME BOVARY
 Autor: Gustave flaubert
 Fecha edición: 1857
-
-Título: CIEN AÑOS DE SOLEDAD
-Autor: Gabriel garcia marquez
-Fecha edición: 1967
-
-Título: SIEMPRE
-Autor: Gabriel garcia marquez
-Fecha edición: 1967
-
-
+Título: RIOS PROFUNDOS
+Autor: Jose maria arguedas
+Fecha edición: 1984
 
