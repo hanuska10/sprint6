@@ -10,7 +10,7 @@ class MenuLibros:
         correcto = False
         opcion = 0
         try:
-            opcion = int(input(" Seleccione una opción [1-3:] "))
+            opcion = int(input(" Seleccione una opción [1-5:] "))
             corecto=True
         except ValueError:
             print("Oops!  valor no válido. Inténte nuevamente...")
@@ -24,8 +24,9 @@ class MenuLibros:
             print(30 * "-", "MENÚ", 30 * "-")
             print("1.Consultar Lista de Libros")
             print("2.Consultar por título")
-            print("3.Agregar nuevo libro a la lista ")
-            print("4.Exit / Salir")
+            print("3.Agregar nuevo libro a la lista ")            
+            print("4.Eliminar un libro a la lista ")
+            print("5.Exit / Salir")
             print(67 * "-")
             
             opcion = self.validarNumero()
@@ -39,6 +40,8 @@ class MenuLibros:
             elif opcion == 3:
                 self.libro1.crearGuardar()
             elif opcion == 4:
+                self.libro1.eliminarLibro()
+            elif opcion == 5:
                 salir = True               
             else:
                 input("Escribe un número entre 1 & 4...")
